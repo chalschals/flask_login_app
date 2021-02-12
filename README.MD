@@ -12,8 +12,11 @@ Open [http://localhost:5000/](http://localhost:5000/) in browser to view the app
 
 ##### Error may occurs:
 - User table not found
+
 Solution:
+
 run the follwoing commands to add user table in sqllite db (make sure you are in active pipenv environment)
+
 		 python
 		 from app import db, create_app
 		 db.create_all(app=create_app())
