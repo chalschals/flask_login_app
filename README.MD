@@ -16,7 +16,8 @@ Solution:
 
 run the following commands to add user table in SQLite db (make sure you are in active pipenv environment)
 
-		 python
+		 
+         python
 	     from app import db, create_app
 	     db.create_all(app=create_app())
 	     these command will add user model into DB
